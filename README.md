@@ -1,17 +1,15 @@
 # mqtt-proxy
 
 #### 介绍
-A new MQTT protocol proxy architecture model, based on which RocketMQ can better support messages from terminals such as IoT devices and Mobile APP.
+是一款基于RocketMQ的MQTT物联网消息组件，其具备集群化高可用、高可靠性、支持百万连接数、低延迟切兼容开源MQTT物联网协议；相比开源Mosquitto等MQTT消息队列，其具备集群高可用性的能力，支持qos=0/1/2等服务等级的消息质量；
 
 #### 软件架构
-软件架构说明
+●MQTT服务，封装了MQTT协议的实现。并与namesrv、Broker模块通信实现离线消息的管理，会将订阅关系、遗嘱消息、保留消息等持久化。
 
 
 #### 安装教程
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+1.  nohup sh mqtt -c ../conf/mqtt.properties &
 
 #### 使用说明
 
