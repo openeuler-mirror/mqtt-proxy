@@ -8,14 +8,23 @@
 
 
 #### 安装教程
+1. Clone
+git clone https://gitee.com/openeuler/mqtt-proxy.git
 
-1.  nohup sh mqtt -c ../conf/mqtt.properties &
+2. Build the package
+cd mqtt-distribution
+mvn -Prelease-all -DskipTests clean install -U
+
+3. Config
+cd mqtt-distribution/target/
+cd mqtt-distribution/conf
+
+4. Start Process
+nohup sh mqtt -c ../conf/mqtt.properties &
 
 #### 使用说明
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+1.  通过配置logback_mqtt.xml来控制日志的输出路径
 
 #### 参与贡献
 
