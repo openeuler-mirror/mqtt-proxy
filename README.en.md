@@ -1,16 +1,13 @@
 # mqtt-proxy
 
 #### Description
-A new MQTT protocol proxy architecture model, based on which RocketMQ can better support messages from terminals such as IoT devices and Mobile APP.
+It is an MQTT IoT messaging component based on RocketMQ, which has clustering, high availability, high reliability, support for millions of connections, low latency, and compatibility with the open-source MQTT IoT protocol; Compared to open-source MQTT message queues such as Mosquito, it has the ability of high cluster availability and supports message quality at service levels such as QoS=0/1/2
 
 #### Software Architecture
-Software architecture description
+MQTT service encapsulates the implementation of the MQTT protocol. And communicate with namesrv and Broker modules to manage offline messages, persisting subscription relationships, testament messages, retention messages, etc.
 
 #### Installation
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
+nohup sh mqtt -c ../conf/mqtt.properties &
 
 #### Instructions
 
