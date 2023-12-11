@@ -24,7 +24,7 @@ nohup sh mqtt -c ../conf/mqtt.properties &
 
 #### 使用说明
 使用mqtt客户端进行测试 
-、、、
+```java
 public class MqttClientDemo {
     public static void main(String[] args) throws Exception {
         String endPoint = "XXXXX";
@@ -103,7 +103,7 @@ public class MqttClientDemo {
         Thread.sleep(Long.MAX_VALUE);
     }
 }
-、、、
+```
 #### 参与贡献
 
 1.  Fork 本仓库
