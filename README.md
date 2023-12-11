@@ -23,16 +23,8 @@ cd mqtt-distribution/conf
 nohup sh mqtt -c ../conf/mqtt.properties &
 
 #### 使用说明
-使用mqtt客户端进行测试  
-
+使用mqtt客户端进行测试 
 、、、
-<dependency>
-    <groupId>org.eclipse.paho</groupId>
-    <artifactId>org.eclipse.paho.client.mqttv3</artifactId>
-    <version>1.2.5</version>
-</dependency>
-、、、  
-
 public class MqttClientDemo {
     public static void main(String[] args) throws Exception {
         String endPoint = "XXXXX";
