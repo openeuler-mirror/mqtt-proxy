@@ -30,10 +30,7 @@ nohup sh mqtt -c ../conf/mqtt.properties &
     <artifactId>org.eclipse.paho.client.mqttv3</artifactId>
     <version>1.2.5</version>
 </dependency>
-、、、
-  
 
-、、、
 public class MqttClientDemo {
     public static void main(String[] args) throws Exception {
         String endPoint = "XXXXX";
